@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сайт на Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Мій Сайт</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Послуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Головний блок -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Ласкаво просимо на наш сайт!</h1>
+            <p class="lead">Це простий сайт, створений з використанням Bootstrap 5</p>
+        </div>
+    </header>
+    
+    <!-- Контент -->
+    <section id="about" class="container my-5">
+        <h2>Про нас</h2>
+        <p>Ми створюємо чудові сайти швидко та якісно.</p>
+    </section>
+    
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Наші послуги</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h3>Верстка</h3>
+                        <p>Адаптивна верстка на HTML, CSS, Bootstrap.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h3>Розробка</h3>
+                        <p>Створення веб-застосунків та інтерактивних сторінок.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h3>Підтримка</h3>
+                        <p>Допомога у розвитку та підтримці сайтів.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Контакти -->
+    <section id="contact" class="container my-5">
+        <h2>Контакти</h2>
+        <p>Зв'яжіться з нами за email: info@example.com</p>
+    </section>
+    
+    <!-- Підвал -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Мій Сайт. Всі права захищені.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+</body>
+</html>
